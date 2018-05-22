@@ -18,7 +18,7 @@ public class DateTimeTest {
 		
 		// has to be ISO. a DateTimeParseException is thrown otherwise.
 		LocalDate date = LocalDate.parse( "2018-05-26" );
-		
+
 		System.out.println( date.getYear() );
 		System.out.println( date.getMonthValue() );
 		System.out.println( date.getDayOfMonth() );

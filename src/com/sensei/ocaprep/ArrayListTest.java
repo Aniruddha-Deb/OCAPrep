@@ -1,6 +1,8 @@
 package com.sensei.ocaprep;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.ListIterator;
 
 public class ArrayListTest {
@@ -23,6 +25,12 @@ public class ArrayListTest {
     	while( iterator.hasNext() ) {
     		System.out.println(iterator.next());
     	}
+    	
+    	// generics
+    	// the following works
+    	List balloons = new ArrayList<>();
+    	// also this works
+    	List baloons = new ArrayList();
     }
 
 }
