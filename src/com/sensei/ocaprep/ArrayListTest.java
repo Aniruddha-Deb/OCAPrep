@@ -31,6 +31,7 @@ public class ArrayListTest {
     	List balloons = new ArrayList<>();
     	// also this works
     	List baloons = new ArrayList();
+    	
     }
 
 }
