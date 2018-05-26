@@ -32,6 +32,8 @@ public class ArrayListTest {
     	// also this works
     	List baloons = new ArrayList();
     	
+    	while( 1 == 1 );
+
     }
 
 }
