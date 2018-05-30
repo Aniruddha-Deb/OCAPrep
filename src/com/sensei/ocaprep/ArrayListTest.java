@@ -8,7 +8,7 @@ import java.util.ListIterator;
 public class ArrayListTest {
 	
     public static void main( String args[] ) {
-
+    	
     	// Iterator practice
     	ArrayList<String> strList = new ArrayList<>();
     	strList.add( "One" );
