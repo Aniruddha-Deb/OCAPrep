@@ -7,7 +7,7 @@ class ConstructorParent {
 //	}
 	
 	public ConstructorParent( int parameter ) {
-		System.out.println( "This is a parameterized constructor" );
+		System.out.println( "This is a parameterized constructor " + parameter );
 	}  
 }
 
@@ -28,5 +28,10 @@ public class ConstructorInheritanceTest extends ConstructorParent {
 	
 	public ConstructorInheritanceTest( int parameterized ) {
 		super( parameterized );
+	}
+	
+	public static void main(String[] args) {
+		new ConstructorInheritanceTest();
+		new ConstructorInheritanceTest( 7 );
 	}
 }

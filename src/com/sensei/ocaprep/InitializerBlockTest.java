@@ -11,6 +11,10 @@ class InitializerParent {
 
 public class InitializerBlockTest extends InitializerParent{
 
+	static { 
+		System.out.println( "This is a static block, run when the class is loaded" ); 
+	}
+	
 	{ System.out.println( "This is initializer block 1" ); }
 	
 	public InitializerBlockTest() {
@@ -18,6 +22,10 @@ public class InitializerBlockTest extends InitializerParent{
 	}
 	
 	{ System.out.println( "This is initializer block 2" ); }
+	
+	static { 
+		System.out.println( "This is the second static block, run after the first." ); 
+	}
 	
 	public static void main(String[] args) {
 		new InitializerBlockTest();
